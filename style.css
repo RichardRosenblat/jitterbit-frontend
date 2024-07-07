@@ -1,0 +1,23 @@
+/* 
+#0979B5
+#98D4F5
+#5E91AD
+#5C686E
+#44A1D4
+*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #EFEFEF;
+}
+header, footer {
+    background-color: #98D4F5;
+    color: #000;
+    text-align: center;
+    padding: 1rem;
+}
+header img {
+    max-width: 150px;
+}
