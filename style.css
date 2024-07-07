@@ -86,13 +86,13 @@ footer .social-links a {
     background-size: cover;
 }
 footer .social-links a.facebook {
-    background-image: url('./media/facebook-icon.svg');
+    background-image: url('./assets/facebook-icon.svg');
 }
 footer .social-links a.x {
-    background-image: url('./media/x-icon.svg');
+    background-image: url('./assets/x-icon.svg');
 }
 footer .social-links a.instagram {
-    background-image: url('./media/instagram-icon.svg');
+    background-image: url('./assets/instagram-icon.svg');
 }
 footer .contact-info {
     margin-top: 1rem;
