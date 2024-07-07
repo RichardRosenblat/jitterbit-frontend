@@ -23,7 +23,6 @@ header img {
 }
 
 footer {
-    background-color: #44A1D4;
     margin-top: 2rem;
 }
 footer .social-links {
@@ -50,4 +49,57 @@ footer .social-links a.instagram {
 }
 footer .contact-info {
     margin-top: 1rem;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+form {
+    max-width: 600px;
+    width: 100%;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+fieldset {
+    border: none;
+    margin-bottom: 1rem;
+}
+legend {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+input, select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.2rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.actions button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.actions button[type="submit"] {
+    background-color: #0979B5;
+    color: white;
+}
+.actions button[type="reset"] {
+    background-color: #A63D40;
+    color: white;
 }
