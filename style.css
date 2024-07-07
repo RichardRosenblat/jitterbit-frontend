@@ -21,3 +21,33 @@ header, footer {
 header img {
     max-width: 150px;
 }
+
+footer {
+    background-color: #44A1D4;
+    margin-top: 2rem;
+}
+footer .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+footer .social-links a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+}
+footer .social-links a.facebook {
+    background-image: url('/media/facebook-icon.svg');
+}
+footer .social-links a.x {
+    background-image: url('/media/x-icon.svg');
+}
+footer .social-links a.instagram {
+    background-image: url('/media/instagram-icon.svg');
+}
+footer .contact-info {
+    margin-top: 1rem;
+}
